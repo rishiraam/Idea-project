@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Xbox mybox=new Xbox("MYbox");
+        Xbox myxbox=new Xbox("MYbox");
         Scanner sc=new Scanner(System.in);
         int n;
         System.out.println("Enter no of games to add");
@@ -19,11 +19,11 @@ public class Main {
             String name=sc.nextLine();
             System.out.println("Enter price");
             int price=sc.nextInt();
-            mybox.add(name,price);
+            myxbox.add(name,price);
             sc.nextLine();
         }
         System.out.println("Games present are:");
-        mybox.print();
+        myxbox.print();
 
     }
 }
